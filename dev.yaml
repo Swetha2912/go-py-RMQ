@@ -1,0 +1,38 @@
+version: "3.3"
+
+services:
+
+  sample_gateway:
+    container_name : sample_gateway
+    build: 
+        context: ./go
+        dockerfile: Dockerfile
+    command: gomon
+    environment:
+      - RMQ_HOST=192.168.1.2:5673
+      - RMQ_USER=sample
+      - RMQ_PASS=rmq
+    volumes:
+      - ./go/common:/go/src/sample_rmq/common
+      - ./go/gateway:/go/src/sample_rmq/gateway
+    ports:
+      - "3000:3000"
+
+  sample_python:
+    container_name : sample_python
+    build: 
+        context: ./python
+        dockerfile: Dockerfile
+    command: python -u index.py
+    environment:
+      - RMQ_HOST=192.168.1.2
+      - PORT=5673
+      - RMQ_USER=sample
+      - RMQ_PASS=rmq
+    volumes:
+      - ./python:/python/sample
+
+networks:
+  default:
+    external:
+      name: sample_rmq

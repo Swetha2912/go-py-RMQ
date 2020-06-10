@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="025c7e86-c484-478e-afaa-b914d65f572f" name="awsGPU">
+        <fileTransfer rootFolder="/home/swetha/backend_lean/go" accessType="SFTP" host="3.209.155.179" port="22" sshConfigId="0f5c31b8-e7cc-4f6d-b076-3d56b63f164d" sshConfig="swetha@3.209.155.179:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

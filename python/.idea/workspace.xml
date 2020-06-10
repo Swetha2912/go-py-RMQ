@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cb9a6cb-b0b5-4e50-a8ed-cf4dffa1fac4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="JupyterTrust" id="a05ea0a2-4f4e-4165-be04-b4cbfc9202ef" />
+  <component name="ProjectId" id="1clVJAcAykWaJsvLVJ2GLhKqlNM" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dockerfile" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25977013" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python Debug Server.python remote">
+    <configuration name="python remote" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="python" />
+      <option name="PORT" value="1234" />
+      <option name="HOST" value="localhost" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/swetha/backend_lean/python" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="backendtarget:python" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="backendtarget_py" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="--net=host --gpus=all" />
+          <option name="sourceFilePath" value="Dockerfile" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/mxnet/face" />
+                <option name="hostPath" value="$PROJECT_DIR$/../../../../../swetha/backend_lean/python" />
+              </DockerVolumeBindingImpl>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/mxnet/face/proto_specs" />
+                <option name="hostPath" value="$PROJECT_DIR$/../../../../../swetha/backend_lean/python/proto_specs" />
+              </DockerVolumeBindingImpl>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/mxnet/face/proto_docs" />
+                <option name="hostPath" value="$PROJECT_DIR$/../../../../../swetha/backend_lean/proto_docs" />
+              </DockerVolumeBindingImpl>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/mxnet/face/uploads" />
+                <option name="hostPath" value="$PROJECT_DIR$/../../../../../swetha/backend_lean/go/gateway/uploads" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.python" />
+      <item itemvalue="Python Debug Server.python remote" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cb9a6cb-b0b5-4e50-a8ed-cf4dffa1fac4" name="Default Changelist" comment="" />
+      <created>1591103092167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591103092167</updated>
+      <workItem from="1591103093704" duration="2280000" />
+      <workItem from="1591105474849" duration="2316000" />
+      <workItem from="1591108137537" duration="3071000" />
+      <workItem from="1591173409387" duration="1023000" />
+      <workItem from="1591174605435" duration="9740000" />
+      <workItem from="1591259271865" duration="1078000" />
+      <workItem from="1591339025819" duration="2000" />
+      <workItem from="1591341475978" duration="900000" />
+      <workItem from="1591451073344" duration="656000" />
+      <workItem from="1591451804421" duration="14151000" />
+      <workItem from="1591520502907" duration="5747000" />
+      <workItem from="1591547814765" duration="4831000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="182" key="#Deployment" timestamp="1591466883941">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="440" y="166" key="#Deployment/0.23.1680.956@0.23.1680.956" timestamp="1591104359425" />
+    <state x="558" y="182" key="#Deployment/75.24.1845.1056@75.24.1845.1056" timestamp="1591466883941" />
+    <state x="656" y="285" key="#Docker" timestamp="1591104703129">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="656" y="285" key="#Docker/0.23.1680.956@0.23.1680.956" timestamp="1591104703129" />
+    <state x="595" y="200" key="#Options" timestamp="1591452882963">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="595" y="200" key="#Options/75.24.1845.1056@75.24.1845.1056" timestamp="1591452882963" />
+    <state x="485" y="116" key="#Project_Structure" timestamp="1591455618278">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="485" y="116" key="#Project_Structure/75.24.1845.1056@75.24.1845.1056" timestamp="1591455618278" />
+    <state x="506" y="152" key="#SSH_Configurations" timestamp="1591104337361">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="506" y="152" key="#SSH_Configurations/0.23.1680.956@0.23.1680.956" timestamp="1591104337361" />
+    <state x="848" y="440" key="#Volume_binding" timestamp="1591463365147">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="848" y="440" key="#Volume_binding/75.24.1845.1056@75.24.1845.1056" timestamp="1591463365147" />
+    <state x="409" y="179" width="1110" height="846" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591550342539">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="304" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.953@0.23.1680.953" timestamp="1591194293463" />
+    <state x="304" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.956@0.23.1680.956" timestamp="1591108624599" />
+    <state x="409" y="179" width="1110" height="846" key="#com.intellij.execution.impl.EditConfigurationsDialog/75.24.1845.1056@75.24.1845.1056" timestamp="1591550342539" />
+    <state width="1680" height="109" key="DebuggerActiveHint" timestamp="1591192431507">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state width="1680" height="109" key="DebuggerActiveHint/0.23.1680.953@0.23.1680.953" timestamp="1591192431507" />
+    <state x="732" y="334" key="FileChooserDialogImpl" timestamp="1591462335454">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="732" y="334" key="FileChooserDialogImpl/75.24.1845.1056@75.24.1845.1056" timestamp="1591462335454" />
+    <state width="1799" height="365" key="GridCell.Tab.0.bottom" timestamp="1591609081564">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1591192033531" />
+    <state width="1799" height="365" key="GridCell.Tab.0.bottom/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081564" />
+    <state width="1799" height="365" key="GridCell.Tab.0.center" timestamp="1591609081561">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1591192033528" />
+    <state width="1799" height="365" key="GridCell.Tab.0.center/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081561" />
+    <state width="1799" height="365" key="GridCell.Tab.0.left" timestamp="1591609081556">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1591192033526" />
+    <state width="1799" height="365" key="GridCell.Tab.0.left/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081556" />
+    <state width="1799" height="365" key="GridCell.Tab.0.right" timestamp="1591609081562">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1591192033529" />
+    <state width="1799" height="365" key="GridCell.Tab.0.right/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081562" />
+    <state width="1799" height="365" key="GridCell.Tab.1.bottom" timestamp="1591609081572">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.1.bottom/0.23.1680.953@0.23.1680.953" timestamp="1591192276944" />
+    <state width="1799" height="365" key="GridCell.Tab.1.bottom/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081572" />
+    <state width="1799" height="365" key="GridCell.Tab.1.center" timestamp="1591609081569">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.1.center/0.23.1680.953@0.23.1680.953" timestamp="1591192276943" />
+    <state width="1799" height="365" key="GridCell.Tab.1.center/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081569" />
+    <state width="1799" height="365" key="GridCell.Tab.1.left" timestamp="1591609081565">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.1.left/0.23.1680.953@0.23.1680.953" timestamp="1591192276942" />
+    <state width="1799" height="365" key="GridCell.Tab.1.left/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081565" />
+    <state width="1799" height="365" key="GridCell.Tab.1.right" timestamp="1591609081571">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state width="1680" height="192" key="GridCell.Tab.1.right/0.23.1680.953@0.23.1680.953" timestamp="1591192276944" />
+    <state width="1799" height="365" key="GridCell.Tab.1.right/75.24.1845.1056@75.24.1845.1056" timestamp="1591609081571" />
+    <state x="75" y="24" width="1845" height="1056" key="ProcessPopupWindow" timestamp="1591551457060">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="75" y="24" width="1845" height="1056" key="ProcessPopupWindow/75.24.1845.1056@75.24.1845.1056" timestamp="1591551457060" />
+    <state x="387" y="237" key="PyMappingSimpleResolveDialog" timestamp="1591192293040">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state x="387" y="237" key="PyMappingSimpleResolveDialog/0.23.1680.953@0.23.1680.953" timestamp="1591192293040" />
+    <state x="449" y="153" key="SettingsEditor" timestamp="1591466047661">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="341" y="139" key="SettingsEditor/0.23.1680.953@0.23.1680.953" timestamp="1591189900159" />
+    <state x="341" y="140" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1591107568562" />
+    <state x="449" y="153" key="SettingsEditor/75.24.1845.1056@75.24.1845.1056" timestamp="1591466047661" />
+    <state width="840" height="476" key="XDebugger.FullValuePopup" timestamp="1591192431501">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state width="840" height="476" key="XDebugger.FullValuePopup/0.23.1680.953@0.23.1680.953" timestamp="1591192431501" />
+    <state x="75" y="24" width="1845" height="1056" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize" timestamp="1591463573126">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="746" y="391" width="540" height="208" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.23.1680.953@0.23.1680.953" timestamp="1591191153033" />
+    <state x="746" y="392" width="586" height="218" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.23.1680.956@0.23.1680.956" timestamp="1591107635988" />
+    <state x="75" y="24" width="1845" height="1056" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/75.24.1845.1056@75.24.1845.1056" timestamp="1591463573126" />
+    <state x="528" y="251" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591550723497">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="528" y="251" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/75.24.1845.1056@75.24.1845.1056" timestamp="1591550723497" />
+    <state x="1096" y="324" key="ftp.server.browser" timestamp="1591466869011">
+      <screen x="75" y="24" width="1845" height="1056" />
+    </state>
+    <state x="747" y="238" key="ftp.server.browser/0.23.1680.956@0.23.1680.956" timestamp="1591104356705" />
+    <state x="1096" y="324" key="ftp.server.browser/75.24.1845.1056@75.24.1845.1056" timestamp="1591466869011" />
+    <state x="505" y="232" width="670" height="674" key="search.everywhere.popup" timestamp="1591191750531">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state x="505" y="232" width="670" height="674" key="search.everywhere.popup/0.23.1680.953@0.23.1680.953" timestamp="1591191750531" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.956@0.23.1680.956" timestamp="1591107885314" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/index.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

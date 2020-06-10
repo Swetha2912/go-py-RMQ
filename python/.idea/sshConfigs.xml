@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="3.209.155.179" id="0f5c31b8-e7cc-4f6d-b076-3d56b63f164d" keyPath="$USER_HOME$/Documents/SSH/swetha_exclusive.pem" port="22" nameFormat="DESCRIPTIVE" username="swetha" />
+    </configs>
+  </component>
+</project>

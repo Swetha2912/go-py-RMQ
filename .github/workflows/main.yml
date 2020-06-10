@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - uses: actions/docker-build-push-gcr-update-gke-deployment-action@v1.4
+      with:
+        service_account: ${{ secrests.GCLOUD_AUTH}} 
+        zone: 'us-central1-c'
+        project_id: 'framework-standards'
+        registry: 'gcr.io/framework-standards/py_sample'
+        image_name: 'gcr.io/framework-standards/py_sample@sha256:edc9babced508f38e0cf454b5e330ca755fcc4a3d4b6b85a1899d4dedcc68f20'
+        cluster: 'go-python-rmq-demo'
+        namespace: 'default'
+        deployment: 'demo python change'
+        container: 'demo python'

@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/docker-build-push-gcr-update-gke-deployment-action@v1.4
       with:
-        service_account: ${{ secrests.GCLOUD_AUTH}} 
+        service_account: ${{ secrets.GCLOUD_AUTH}} 
         zone: 'us-central1-c'
         project_id: 'framework-standards'
         registry: 'gcr.io/framework-standards/py_sample'

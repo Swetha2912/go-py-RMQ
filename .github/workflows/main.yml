@@ -27,9 +27,9 @@ jobs:
         service_account: ${{ secrets.GCLOUD_AUTH}} 
         zone: 'us-central1-c'
         project_id: 'framework-standards'
-        registry: 'gcr.io/framework-standards/py_sample'
-        image_name: 'gcr.io/framework-standards/py_sample@sha256:edc9babced508f38e0cf454b5e330ca755fcc4a3d4b6b85a1899d4dedcc68f20'
+        registry: 'gcr.io'
+        image_name: 'demoTest'
         cluster: 'go-python-rmq-demo'
         namespace: 'default'
-        deployment: 'demo python change'
+        deployment: 'demo python zmq'
         container: 'demo python'

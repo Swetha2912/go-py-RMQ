@@ -21,7 +21,8 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: actions/docker-build-push-gcr-update-gke-deployment-action@v1.4
+    - name: docker-build-push-gcr-update-gke-deployment-action
+      uses: shashank0202/docker-build-push-gcr-update-gke-deployment-action@1.4
       with:
         service_account: ${{ secrets.GCLOUD_AUTH}} 
         zone: 'us-central1-c'
